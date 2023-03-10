@@ -1,0 +1,36 @@
+Forum like stack over flow.
+I want to copy stack over flow initially.
+so
+1. copy stackoverflow.
+** Colors:
+Teal:
+#0ca678
+Gray:
+#adb5bd
+** Typography:
+Font: Lato:400,700
+type-scales:
+Heading1: 48.83px/3.052rem
+Heading2: 39.06px/2.441rem
+Heading3: 31.25px/1.953rem
+Heading4: 25.00px/1.563rem
+Heading5: 20.00px/1.250rem
+Text:     16.00px/1.000rem
+** Sapce:
+4.00px/0.25rem
+8.00px/0.50rem
+12.0px/0.75rem
+16.0px/1.00rem
+20.0px/1.25rem
+24.0px/1.50rem
+28.0px/1.75rem
+32.0px/2.00rem
+36.0px/2.25rem
+40.0px/2.50rem
+
+** Personality:
+*Typography*: Mediumo-sized headings(not too large.) Use one sen-serif in whole design, Tendency for light text colors.
+*Icons*: very frequent.
+*Shadows*: Subtle shadows are frequent, Glows are becoming modern.
+*Colors*: Usually black or dark grey, on pure white backgrounds.Usually just one color.
+*Images*: Few images, usually not Illustrations.

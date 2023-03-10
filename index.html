@@ -1,12 +1,120 @@
-<!-- ** Startup/Upbeat -->
-<!-- Software startup and other modern-looking companies. -->
-<!-- *Typography*: Mediumo-sized headings(not too large.) Use one sen-serif in whole design, Tendency for light text colors. -->
-<!-- *Colors:* Blue, green and purple s, are widely used.lots of light backgrounds, gradiants are common. -->
-<!-- *Images*: Always used, 3D illustration are modern. -->
-<!-- *Icons*: very frequent. -->
-<!-- *Shadows*: Subtle shadows are frequent, Glows are becoming modern. -->
-<!-- *Border-radius*: very common. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<!-- ** Space-System -->
-<!-- font-size: 14/16/18/21/26/32/38/42/48/52/60/68/72/80 -->
-<!-- padding: 10/12/16/20/24/28/32/38/42/48/54/60 -->
+  <body>
+    <nav>
+      <div class="logo">LOGO</div>
+      <div class="search">Search</div>
+      <div class="user">
+        <div class="user-profile">
+          <img src="Assets/people-1.jpg" alt="" />
+          <div>151</div>
+          <div>13</div>
+        </div>
+        <div class="user-inbox">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M6.912 3a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H6.912zm13.823 9.75l-2.213-7.191A1.5 1.5 0 0017.088 4.5H6.912a1.5 1.5 0 00-1.434 1.059L3.265 12.75H6.11a3 3 0 012.684 1.658l.256.513a1.5 1.5 0 001.342.829h3.218a1.5 1.5 0 001.342-.83l.256-.512a3 3 0 012.684-1.658h2.844z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <div class="user-stars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <div class="user-help">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 01-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 01-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 01-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584zM12 18a.75.75 0 100-1.5.75.75 0 000 1.5z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </nav>
+    <aside>
+      <ol>
+        <li class="active">Home</li>
+        <li>Questions</li>
+        <ol>
+          <li>Tags</li>
+          <li>User</li>
+          <li>Companies</li>
+        </ol>
+      </ol>
+    </aside>
+
+    <section>
+      <div class="top_questions">
+        <div class="top_questions_title">Top Questions</div>
+        <div class="ask_question">
+          <a href="#"> Ask Question </a>
+        </div>
+        <div class="top_questions_filter">
+          <div class="filter-active">Interesting</div>
+          <div>Boutied</div>
+          <div>Hot</div>
+          <div>Week</div>
+          <div>Month</div>
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <div class="question_left">
+            <div class="votes">9 votes</div>
+            <div class="answers">1 answer</div>
+            <div class="views">304 views</div>
+          </div>
+          <div class="question_title">Flask send pyaudio to browser</div>
+          <div class="question_tags">
+            <div class="question_tag">python</div>
+            <div class="question_tag">html</div>
+            <div class="question_tag">flask</div>
+          </div>
+
+          <div class="author">
+            <div class="author_link">peyman</div>
+            <div class="author_score">4,888</div>
+            <div class="question_history">modified 11 hours ago</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article>
+      <div class="blog_news_container">
+        <h1>Carask Blog</h1>
+        <div class="blog_news">last update for some program released.</div>
+      </div>
+    </article>
+    <footer></footer>
+  </body>
+</html>
